@@ -19,3 +19,9 @@
 - GitHub repository verified: ahnafalzaeem2k13/universal-workspace (main; connected repo metadata reports push permission). Git Data API create_blob returned HTTP 403 Resource not accessible by integration. A fresh public clone was used to prepare one focused local commit; git push failed because no interactive username/authentication was available (GIT_TERMINAL_PROMPT=0). No remote changes were made.
 
 - Prepared one focused unpublished commit on a fresh clone; its exact SHA is recorded in the adjacent Drive publication note. working tree is clean and branch is one commit ahead of origin/main. A complete Git bundle is stored at My Drive/ChatGPT-Workspace/NIGHTLINE-github-ready.bundle.
+
+## 2026-11-21 05:46 UTC — Workshop finalization
+- Researched current official Colab MCP, Colab runtime limits, Drive persistence, and ChatGPT Work capabilities.
+- Added `AI-MAKER-WORKSHOP.md` with automatic runtime discovery/recovery, tool routing, autonomy rules, security, completion evidence, and hard platform limits.
+- Corrected stale GitHub publication notes: commit `2b8e82373af3aa29a2279ed380aecca6ad70e66f` is pushed and remote `main` was verified.
+- Marked NIGHTLINE acceptance checklist complete based on existing QA, cold-recovery, and remote-hash evidence.

@@ -1,12 +1,14 @@
 # NIGHTLINE TODO
 
-- [x] Locate NIGHTLINE project, active Colab runtime, mounted Drive, and recovery notebook.
-- [x] Reproduce the tablet portrait header crowding at 768×1024 from the retained baseline screenshot.
-- [x] Apply the 820px breakpoint so desktop links collapse to the existing accessible menu on tablet.
-- [x] Run Playwright Chromium at desktop 1440×900 and tablet 768×1024; both HTTP 200, no overflow, page errors, console errors, or failed requests.
-- [x] Verify tablet menu opens (aria-expanded=false → true), follows the Network link, and closes; desktop nav remains inline.
-- [x] Verify route selection and pause/resume motion controls.
-- [x] Capture matching before/after desktop and tablet viewport screenshots plus full-page captures.
-- [x] Save full Drive checkpoint and verify archive/manifest SHA-256 and all 39 member hashes.
-- [x] Delete only local /content/persistent-mcp-server, restore from Drive, and verify all file hashes plus Playwright/Chromium launch.
-- [!] Push requires interactive GitHub authentication: GitHub API returned 403 Resource not accessible by integration; Colab git push has no configured username. Prepared commit and Drive bundle are ready.
+All acceptance tasks for the tablet navigation fix and recovery workflow are complete.
+
+- [x] Locate project, Colab runtime, Drive, and recovery notebook.
+- [x] Reproduce and fix tablet portrait header crowding at 768×1024.
+- [x] Run Chromium desktop 1440×900 and tablet 768×1024; no overflow, page/console errors, or failed requests.
+- [x] Verify tablet menu opens, navigates, and closes; desktop nav remains inline.
+- [x] Verify route selection and pause/resume controls.
+- [x] Capture before/after desktop and tablet viewport/full-page screenshots.
+- [x] Save Drive checkpoint and verify archive manifest hashes.
+- [x] Delete disposable local workspace, cold-restore from Drive, and verify browser readiness.
+- [x] Push commit `2b8e82373af3aa29a2279ed380aecca6ad70e66f`; verify remote `main` hash.
+- [x] Add AI Maker Workshop operating standard and correct stale publication notes.
