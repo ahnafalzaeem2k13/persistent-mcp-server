@@ -1,7 +1,12 @@
-- [x] Build the all-in-one searchable toolbox (24 tools across 8 categories).
-- [x] Add responsive desktop/tablet/mobile layouts, theme, search, favorites and recent tools.
-- [x] Node JavaScript syntax check passed.
-- [x] Playwright HTTP and no-horizontal-overflow checks at desktop, iPad, tablet and mobile.
-- [x] Verify percentage, word count, JSON format, unit conversion, password generation, case conversion, color picker, contrast and timer flows.
-- [/] Investigate residual console errors seen in a repeated navigation regression run; currency live API needs a final online verification.
-- [ ] Publish and verify public live URL.
+- [x] Expand the searchable toolbox from 24 to 50 functional tools across 11 categories.
+- [x] Add finance calculators, math helpers, text utilities, developer utilities, CSV/JSON conversion, local image resizing, QR generation, and GPA tools.
+- [x] Add result-copy controls, accessible input labels, improved responsive focus states, and wider currency coverage.
+- [x] Upgrade currency conversion to the current Frankfurter v2 single-pair endpoint; live USD→BDT browser check returned 124.6400 for 2026-11-20.
+- [x] Add installable PWA manifest, app icon, and service worker; offline reload returned all 50 tool cards.
+- [x] Node syntax check passed.
+- [x] Playwright opened and closed all 50 tools with zero page errors.
+- [x] Playwright verified loan EMI, number base, CSV→JSON, GPA, fraction, Roman numerals, and statistics.
+- [x] Playwright image-resize flow generated a downloadable image.
+- [x] Playwright responsive checks at 1440×900, 1024×1366, and 390×844 found no horizontal overflow.
+- [x] Playwright offline reload and service-worker registration passed.
+- [ ] Commit, push, and verify the updated public CDN URL.
