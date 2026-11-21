@@ -1,0 +1,7 @@
+- [x] Build the all-in-one searchable toolbox (24 tools across 8 categories).
+- [x] Add responsive desktop/tablet/mobile layouts, theme, search, favorites and recent tools.
+- [x] Node JavaScript syntax check passed.
+- [x] Playwright HTTP and no-horizontal-overflow checks at desktop, iPad, tablet and mobile.
+- [x] Verify percentage, word count, JSON format, unit conversion, password generation, case conversion, color picker, contrast and timer flows.
+- [/] Investigate residual console errors seen in a repeated navigation regression run; currency live API needs a final online verification.
+- [ ] Publish and verify public live URL.
