@@ -1,12 +1,7 @@
-- [x] Expand the searchable toolbox from 24 to 50 functional tools across 11 categories.
-- [x] Add finance calculators, math helpers, text utilities, developer utilities, CSV/JSON conversion, local image resizing, QR generation, and GPA tools.
-- [x] Add result-copy controls, accessible input labels, improved responsive focus states, and wider currency coverage.
-- [x] Upgrade currency conversion to the current Frankfurter v2 single-pair endpoint; live USD→BDT browser check returned 124.6400 for 2026-11-20.
-- [x] Add installable PWA manifest, app icon, and service worker; offline reload returned all 50 tool cards.
-- [x] Node syntax check passed.
-- [x] Playwright opened and closed all 50 tools with zero page errors.
-- [x] Playwright verified loan EMI, number base, CSV→JSON, GPA, fraction, Roman numerals, and statistics.
-- [x] Playwright image-resize flow generated a downloadable image.
-- [x] Playwright responsive checks at 1440×900, 1024×1366, and 390×844 found no horizontal overflow.
-- [x] Playwright offline reload and service-worker registration passed.
-- [ ] Commit, push, and verify the updated public CDN URL.
+- [x] Preserve all 53 practical tools, including colour utilities.
+- [x] Add four local PDF tools: merge, extract pages, rotate, and images-to-PDF.
+- [x] Complete a full visual-system redesign with responsive desktop/tablet/mobile layouts.
+- [x] Add working website light/dark appearance toggle.
+- [x] Bundle PDF library locally and cache it for offline use after first load.
+- [x] Browser QA: 53 tools opened/closed; no page errors; responsive widths; Color and PDF categories; appearance toggle.
+- [ ] Publish refreshed build to the public link.
